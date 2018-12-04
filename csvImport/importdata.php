@@ -4,9 +4,7 @@ require   '../vendor/autoload.php';
 
 use League\Csv\Reader;
 
-$options = getopt("a:f:");
+$csv = Reader::createFromPath("../tmp/footballdata.csv", 'r');
 
-$csv = Reader::createFromPath('/path/to/your/csv/file.csv', 'r');
-
-
+echo $csv->getContent();
 

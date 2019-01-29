@@ -14,12 +14,11 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__ . "/src"), 
 
 // database configuration parameters
 $conn = [
-    'driver' => 'sqlsrv',
-    'user' => 'bradley',
-    'password' => 'w12ABfqmn1WV1%Px',
-    'host' => 'lime-csh.database.windows.net',
-    'port' => '1433',
-    'dbname' => 'football_data'
+    'driver' => 'mysqli',
+    'user' => 'root',
+    'password' => 'PrAv#MU*YgKM33$C',
+    'host' => '104.154.247.58',
+    'dbname' => 'football'
 ];
 
 // obtaining the entity manager
